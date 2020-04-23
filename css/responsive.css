@@ -1,0 +1,75 @@
+@media (max-width: 1199px){
+.banner-content h1 {
+    font-size: 40px;
+}
+.banner-content p {
+    margin-bottom: 40px;
+}
+.featuren p{
+	font-size: 17px;
+}
+}
+@media (max-width: 991px){
+.banner-content {
+     text-align: center;
+     padding-bottom: 100px;
+}
+banner-content h1 {
+    font-size: 46px;
+}
+.button-cumstom, .btn-outline-custom{
+	
+	font-size: 16px;
+	padding: 8px 15px;
+
+}
+.feature{
+	margin-bottom: 45px;
+}
+.about-section ul{
+	display: none;
+}
+.carousal-item h5{
+	font-size: 17px;
+}
+}
+@media (max-width: 767px){
+	.about-section{
+		text-align: center;
+	}
+	.about-section ul{
+		flex-wrap: wrap;
+	display: flex;
+	justify-content: center;
+	text-align: left;
+	max-width: 70%;
+	margin: auto;
+}
+.about-section .heading{
+	text-align: center;
+}
+.about-section .heading span{
+	margin-left: auto;
+}
+.about-section ul li:first-child{
+	max-width: 10%;
+	flex-basis: 10%;
+	margin-right: 0;
+}
+.about-section ul li:last-child{
+	max-width: 90%;
+	flex-basis: 90%;
+	margin-right: 0;
+}
+.carousal-item{
+	text-align: center;
+}
+.carousal-item .nav{
+	justify-content: center;
+}
+}
+@media (max-width: 575px){
+	banner-content h1 {
+    font-size: 30px;
+}
+}
